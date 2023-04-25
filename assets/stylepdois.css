@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+.container {
+    display: flex;
+}
+
+.aside--container {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 16.5%;
+    height: 100vh;
+}
+.aside--container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.section {
+    display: flex;
+    border: 1px solid red;
+    height: 100vh;
+    width: 66%;
+}
+
+.material-symbols-outlined {
+    padding: 10px;
+    border: 1px solid black;
+}
+
